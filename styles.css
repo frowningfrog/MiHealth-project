@@ -1,19 +1,23 @@
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
 }
 .title {
+    margin-left: 4em;
     font-size: 1.25em;
     display: inline-flex;
 }
 #red {
-    color: red;
+    color: crimson;
     font-weight: 900;
 }
 #green {
-    color: lime;
+    color: olive;
     font-weight: 900;
+}
+.menu {
+    margin-right: 6em;
 }
 a {
     padding: 1em;
