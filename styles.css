@@ -64,8 +64,30 @@ body {
 .pic {
     width: 20vw;
     margin-top: 3em;
+    position: relative;
 }
 img {
     height: 33em;
     min-width: 100%;
+}
+.blip1 {
+    text-align: right;
+    font-weight: 600;
+    position: absolute;
+    bottom: 4em;
+    margin: -1em;
+    right: 0;
+    padding: 1em;
+    background-color: white;
+}
+.blip2 {
+    text-align: right;
+    font-weight: 600;
+    position: absolute;
+    margin: 0;
+    right: -1em;
+    bottom: 4px;
+    padding: 1em;
+    padding-left: 2em;
+    background-color: olive;
 }
